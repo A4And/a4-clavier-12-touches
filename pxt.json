@@ -1,0 +1,26 @@
+{
+    "name": "a4-clavier-12-touches",
+    "version": "0.0.2",
+    "description": "A4 - Clavier capacitif Grove 12 touches (ATtiny1616) via UART 9600 pour micro:bit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
